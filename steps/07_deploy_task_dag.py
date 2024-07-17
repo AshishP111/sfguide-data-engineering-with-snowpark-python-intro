@@ -5,7 +5,6 @@ from snowflake.core.task import Task
 from snowflake.core.task.dagv1 import DAGOperation, DAG, DAGTask
 from snowflake.core._common import CreateMode
 
-
 def create_tasks_procedurally(session: Session) -> str:
     database_name = "HOL_DB"
     schema_name = "HOL_SCHEMA"
